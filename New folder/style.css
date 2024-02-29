@@ -1,0 +1,294 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+
+
+.navhead{
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between ;
+}
+.nav-main{
+    color: white !important;
+    padding: 12px;
+    background-color: rgb(126, 128, 115);
+}
+
+span > img {
+    width: 24px;
+    border-radius: 15px;
+}
+
+nav > .option {
+    justify-content: space-between;
+}
+.option span {
+    margin: 8px;
+  }
+  
+  
+
+.btns{
+    margin: 2px;
+}
+
+.heading{
+    justify-content: flex-start;
+    padding: 20px;
+    margin-top: 8%;
+}
+.dropdown{
+    display: none;
+}
+
+.select{
+    padding: 5px;
+    margin: 5px;
+    background-color: rgba(255, 166, 0, 0.877);
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 3px;
+    border-radius: 12px;
+}
+.imgcover{
+    padding: 12px;
+    position: relative;
+}   
+
+.imgcover img {
+    height: 150px;
+    width: 95%;
+    border-radius: 12px;
+}
+  
+
+.imgcv1{
+    padding: 5px;
+    margin: 10px;
+    margin-left: 20px;
+    bottom: 18px;
+    flex-direction: column;
+    position: absolute;
+   display: flex;
+   color: white;
+   text-align: left;
+}
+
+
+.explorePK{
+    display: grid;
+    border: none !important;
+    gap: 4px;
+   cursor: pointer;
+    margin: 40px;
+    margin-left: 10px;
+    padding: 0px auto;
+}
+  
+ .bbp{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+    overflow-x: scroll;
+    height: 98%;
+}
+.bbp img {
+    border-radius: 12px;
+}
+
+.bbp span p {
+    margin: 15px;
+    position: absolute;
+    display: flex;
+   font-weight: bold;
+    bottom: 12px;   
+}
+
+h4 {
+    font-weight: bold;
+}
+.trending >div > img{
+    border-radius: 12px;
+    height: 250px;
+    width: 100%;
+}
+.trending-city{
+    font-size: medium;
+    top: 20px;
+    left: 20px;
+}
+
+.trending-city span img {
+    height: 20px;
+    width: 20px;
+}
+  .quickimg {
+    height: 150px;
+    width: 330px;
+    display: flex;
+    gap: 4px;
+   cursor: pointer;
+    margin: 8px;
+    flex-direction: row;
+  }
+
+  .insp1  {
+    position: relative;
+    width: 450px;
+    cursor: pointer;
+  }
+
+  .insp1 > img {
+    position: absolute;
+    border-radius: 22px;
+  }
+
+  /* .insp1 > img:hover {
+    transform: scale(1.06);
+    transition: 0.8s;
+  } */
+
+  .txtinsp {
+    color: white;
+    position: absolute;
+    margin: 12px;
+    top: 1px;
+    left: 1px;
+  }
+  /* .insp2 {
+    display: flex;
+    flex-direction: row;
+    align-items: end;
+    justify-content: right;
+  } */
+  .insp2 {
+    cursor: pointer;
+    margin: 0%;
+    justify-self: end;
+    align-items: end;
+    padding: 12px;
+    margin-left: 620px;
+    gap: 12px;
+    width: 620px;
+  }
+
+  .footer {
+    padding: 50px;
+    background-color: #00224f;
+    text-align: center;
+  }
+
+.email {
+    width: 29%;
+    height: 42px;
+    border-radius: 12px;
+}
+
+.f2 {
+     padding: 20px;
+     text-align: center;
+    background-color: rgb(33, 33, 180);
+}
+
+.lists ul  :hover {
+    color: orange;
+}
+.lists {
+    color: blue;
+    margin-top: 12px;
+    justify-content: center;
+    font-weight: lighter;
+    font-size: small;
+    display: flex;
+    flex-direction: row;
+}
+ul li {
+    text-align: center;
+    list-style-type: none;
+}
+
+.log {
+    padding-top: 111px; 
+    text-align: center;
+    color: blue;
+}
+
+.log:hover {
+    color: orange;
+}
+
+.copy {
+    font-weight: lighter;
+    font-size: small;
+}
+.book {
+    text-align: center;
+    font-weight: lighter;
+    font-size: small;
+}
+
+.copyimage {
+    display: flex;
+    gap: 14px;
+    justify-content: center;
+    padding-bottom: 12px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 1011px) {
+    .dropdown{
+        display: contents;
+        justify-content: end;
+
+    }
+
+    .option{
+        display: none;
+    }
+}
+
+@media (max-width: 600px) {
+    .select {
+       grid-template-columns: 1fr ;
+    }
+    .lists {
+        display: flex;
+        flex-direction: column;
+    }
+  
+}
+
+@media (max-width: 715px)  {
+    .lists {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .select {
+        grid-template-columns: 1fr ;
+     }
+     .dropdown{
+        display: contents;
+        justify-content: end;
+
+    } 
+}

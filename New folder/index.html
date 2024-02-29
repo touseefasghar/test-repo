@@ -1,0 +1,509 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+      integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Booking.com</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <nav class="nav-main">
+      <header class="navhead">
+        <div class="head">
+          <h4>Booking.com</h4>
+        </div>
+        <div class="option">
+          <span>PKR</span>
+          <span>
+            <img
+              src="https://t-cf.bstatic.com/design-assets/assets/v3.109.0/images-flags/Us@3x.png"
+              alt=""
+            />
+          </span>
+          <span><i class="fa-regular fa-circle-question"></i></span>
+          <span>List your property</span>
+          <span
+            ><button type="button" class="btn btn-light">Register</button></span
+          >
+          <span
+            ><button type="button" class="btn btn-light">Sign in</button></span
+          >
+        </div>
+
+        <div class="dropdown">
+          <div class="user">
+            <i class="fa-regular fa-circle-user user"></i>
+          </div>
+          <button
+            class="btn btn-primary dropdown-toggle"
+            type="button"
+            data-bs-toggle="dropdown"
+            aria-expanded="false"
+          >
+            <i class="fa-solid fa-list"></i>
+          </button>
+          <ul class="dropdown-menu dropdown-menu-dark">
+            <li><a class="dropdown-item active" href="#"></a></li>
+            <li><a class="dropdown-item" href="#">Another action</a></li>
+            <li><a class="dropdown-item" href="#">Something else here</a></li>
+            <li><hr class="dropdown-divider" /></li>
+            <li><a class="dropdown-item" href="#">Separated link</a></li>
+          </ul>
+        </div>
+      </header>
+      <div class="btns text-white">
+        <a class="btn btn-outline-info rounded-pill" href="#" role="button">
+          <i class="fa-solid fa-bed"></i>
+          Stays
+        </a>
+        <button
+          class="btn btn-outline-info rounded-pill border border-success border-opacity-10"
+        >
+          <i class="fa-solid fa-plane-departure"></i>
+          Flights
+        </button>
+        <button
+          class="btn btn-outline-info rounded-pill border border-success border-opacity-10"
+        >
+          <i class="fa-solid fa-car"></i>
+          Car rental
+        </button>
+        <button
+          class="btn btn-outline-info rounded-pill border border-success border-opacity-10"
+        >
+          <i class="fa-solid fa-users-between-lines"></i>
+          Attractions
+        </button>
+        <button
+          class="btn btn-outline-info rounded-pill border border-success border-opacity-10"
+        >
+          <i class="fa-solid fa-taxi"></i>
+          Airport taxis
+        </button>
+      </div>
+
+      <div class="heading">
+        <h1>Find your next stay</h1>
+        <h3>Search deals on hotels, homes, and much more...</h3>
+      </div>
+
+      <div class="select">
+        <select class="form-select" aria-label="Default select example">
+          <option selected>where are you going?</option>
+          <option value="1">Islamabad</option>
+          <option value="2">Karachi</option>
+          <option value="3">Sukkur</option>
+          <option value="4">Faisalabad</option>
+          <option value="5">Larkana</option>
+          <option value="6">Peshawar</option>
+          <option value="7">Murree</option>
+          <option value="8">Hunza</option>
+          <option value="9">Gilgit</option>
+        </select>
+
+        <input type="date" class="date-picker" />
+
+        <select class="form-select" name="gender" id="gen">
+          <option value="1">2 adults. 0 children. 1 room</option>
+          <option value="2">4 adults. 2 children. 2 room</option>
+          <option value="3">13 adults. 12 children. 3 room</option>
+          <option value="4">22 adults. 23 children. 4 room</option>
+          <option value="5">11 adults. 12 children. 5 room</option>
+        </select>
+
+        <button class="btn btn-primary" type="button">Submit</button>
+      </div>
+    </nav>
+
+    <div class="form-check m-3">
+      <input
+        class="form-check-input"
+        type="checkbox"
+        value=""
+        id="flexCheckDefault"
+      />
+      <label class="form-check-label" for="flexCheckDefault">
+        I'm travelling for work
+      </label>
+    </div>
+    <div class="offers m-4">
+      <h4>Offers</h4>
+      <p>Promotions, deals, and special offers for you</p>
+    </div>
+        <div class="imgcover">
+            <img
+            src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.pixel4k.com%2Flost-highway-5319.html&psig=AOvVaw2HDZRRjdkmo73ni2e_xozb&ust=1709302802258000&source=images&cd=vfe&opi=89978449&ved=0CBMQjRxqFwoTCNi8yKTf0IQDFQAAAAAdAAAAABAP"
+              alt=""/>
+            <div class="imgcv1">
+              <span><h4>New year, new adventures</h4></span>
+              <span>
+                  <p>
+                  Save 15% or more when you book and stay before April 1,2024
+                  </p>
+              </span >
+              <button class="btn btn-primary btn-sm">Find Early 2024 Deals</button>
+            </div>
+          </div>  
+        <div class="exp m-4">
+          <h4>Explore Pakistan</h4>
+          <p>These popular destinations have a lot to offer</p>
+        </div>
+
+            <div class="explorePK card-group w-3 h-2 corousal slide">
+              <div class="card border border-0">
+                <img src="https://q-xx.bstatic.com/xdata/images/city/170x136/724981.jpg?k=d2a74ca55c128d783c4a6836713abe2ef7874ba2cc276b9f671df017ff24da19&o=" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Islamabad</h5>
+                  <p class="card-text"><small class="text-body-secondary">293 Properties</small></p>
+                </div>
+              </div>
+              <div class="card border border-0">
+                <img src="https://q-xx.bstatic.com/xdata/images/city/170x136/688249.jpg?k=42442ea62b97c8d6b57b4b6171b406e6778a9b160b4ce0c69f53726b397c7d3e&o=" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Lahore</h5>
+                  <p class="card-text"><small class="text-body-secondary">307 Properties</small></p>
+                </div>
+              </div>
+              <div class="card border border-0">
+                <img src="https://images.unsplash.com/photo-1606511490662-b2c5be7d95a1?q=80&w=1425&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Karachi</h5>
+                  <p class="card-text"><small class="text-body-secondary">161 Properties</small></p>
+                </div>
+              </div>
+              <div class="card border border-0">
+                <img src="https://images.unsplash.com/photo-1601225713917-dc48fd6b4990?q=80&w=1374&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Murree</h5>
+                  <p class="card-text"><small class="text-body-secondary">57 Properties</small></p>
+                </div>
+              </div>
+              <div class="card border border-0">
+                <img src="https://images.unsplash.com/photo-1693320262630-230a8019da55?q=80&w=1374&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Nathia Gali</h5>
+                  <p class="card-text"><small class="text-body-secondary">3 Properties</small></p>
+                </div>
+              </div>
+              <div class="card border border-0">
+                <img src="https://media.istockphoto.com/id/1971253569/photo/faisal-mosque-in-islamabad-with-the-mountains-in-the-background.jpg?s=1024x1024&w=is&k=20&c=UK_KB1l6CXKm4HahF3Hl2u_hmy6VfnaMTt0_-uX60c8=" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Rawalpindi</h5>
+                  <p class="card-text"><small class="text-body-secondary">150 Properties</small></p>
+                </div>
+              </div>
+              <div class="card border border-0">
+                <img src="https://images.unsplash.com/photo-1533548036275-b79603f53145?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Multan</h5>
+                  <p class="card-text"><small class="text-body-secondary">110 Properties</small></p>
+                </div>
+              </div>
+              <div class="card border border-0">
+                <img src="https://images.unsplash.com/photo-1620583946569-9a40b459ab2c?q=80&w=1492&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Faisalabad</h5>
+                  <p class="card-text"><small class="text-body-secondary">15 Properties</small></p>
+                </div>
+              </div>
+              <div class="card border border-0">
+                <img src="https://images.unsplash.com/photo-1611821376205-3d0bf56c0ee2?q=80&w=1471&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Hunza</h5>
+                  <p class="card-text"><small class="text-body-secondary">22 Properties</small></p>
+                </div>
+              </div>
+            </div>
+
+            <div class="brows m-4 ">
+              <h4>Browse by property type</h4>
+            </div>
+
+            <div class="bbp m-4">
+              <span><p>Hotels</p></span>
+              <img src="https://q-xx.bstatic.com/xdata/images/xphoto/263x210/57584488.jpeg?k=d8d4706fc72ee789d870eb6b05c0e546fd4ad85d72a3af3e30fb80ca72f0ba57&o=" alt="">
+              <span><p>Appartments</p></span>
+              <img src="https://r-xx.bstatic.com/xdata/images/hotel/263x210/119467716.jpeg?k=f3c2c6271ab71513e044e48dfde378fcd6bb80cb893e39b9b78b33a60c0131c9&o=" alt="">
+              <span><p>Resorts</p></span>
+              <img src="https://r-xx.bstatic.com/xdata/images/xphoto/263x210/45450084.jpeg?k=f8c2954e867a1dd4b479909c49528531dcfb676d8fbc0d60f51d7b51bb32d1d9&o=" alt="">
+              <span><p>villas</p></span>
+              <img src="https://r-xx.bstatic.com/xdata/images/hotel/263x210/100235855.jpeg?k=5b6e6cff16cfd290e953768d63ee15f633b56348238a705c45759aa3a81ba82b&o=" alt="">
+              <span><p>Cabins</p></span>
+              <img src="https://r-xx.bstatic.com/xdata/images/hotel/263x210/52979454.jpeg?k=6ac6d0afd28e4ce00a8f817cc3045039e064469a3f9a88059706c0b45adf2e7d&o=" alt="">
+              <span><p>Cottages</p></span>
+              <img src="https://r-xx.bstatic.com/xdata/images/xphoto/263x210/45450074.jpeg?k=7039b03a94f3b99262c4b3054b0edcbbb91e9dade85b6efc880d45288a06c126&o=" alt="">
+              <span><p>Glamping</p></span>
+              <img src="https://q-xx.bstatic.com/xdata/images/xphoto/263x210/45450090.jpeg?k=52f6b8190edb5a9c91528f8e0f875752ce55a6beb35dc62873601e57944990e4&o=" alt="">
+              <span><p>Serviced Appartments</p></span>
+              <img src="https://r-xx.bstatic.com/xdata/images/xphoto/263x210/45450058.jpeg?k=2449eb55e8269a66952858c80fd7bdec987f9514cd79d58685651b7d6e9cdfcf&o=" alt="">
+              <span><p>Vacation</p></span>
+              <img src="https://r-xx.bstatic.com/xdata/images/xphoto/263x210/45450113.jpeg?k=76b3780a0e4aacb9d02ac3569b05b3c5e85e0fd875287e9ac334e3b569f320c7&o=" alt="">
+              
+            </div>
+
+            <div class="trend m-4">
+              <h4>Trending Destination</h4>
+          <p>Most popular choices for travelers from Pakistan</p>
+            </div>
+            <div class="container">
+              <div class="row trending ">
+          
+              <div class="col-6 img-fluid my-3 position-relative "><img src="https://cf.bstatic.com/xdata/images/city/600x600/688249.jpg?k=42442ea62b97c8d6b57b4b6171b406e6778a9b160b4ce0c69f53726b397c7d3e&o" alt="" >
+              <div class="position-absolute trending-city"><span class="fw-bold text-white mx-2">Lahore</span><span><img src="https://media.istockphoto.com/id/182820726/photo/pakistan-flag.jpg?s=1024x1024&w=is&k=20&c=kBLJ-zpIBok8tPRrVYr01bRV2ENVOLvU3gcTHp2brK4=" alt=""></span></div></div>
+              <div class="col-6 img-fluid my-3 position-relative"><img src="https://cf.bstatic.com/xdata/images/city/600x600/977220.jpg?k=ee4b7b42c35b8cbf09c8ddb7630092b40cd706fec153c41904ed6e252a883938&o=" alt=""  > <div class="position-absolute trending-city"><span class="fw-bold text-white mx-2">Dubai</span><span><img src="https://media.istockphoto.com/id/182820726/photo/pakistan-flag.jpg?s=1024x1024&w=is&k=20&c=kBLJ-zpIBok8tPRrVYr01bRV2ENVOLvU3gcTHp2brK4=" alt=""></span></div></div>
+              <div class="col-4 img-fluid my-3 position-relative"><img src="https://cf.bstatic.com/xdata/images/city/600x600/724981.jpg?k=d2a74ca55c128d783c4a6836713abe2ef7874ba2cc276b9f671df017ff24da19&o=" alt=""  > <div class="position-absolute trending-city"><span class="fw-bold text-white mx-2">Islamabad</span><span><img src="https://media.istockphoto.com/id/182820726/photo/pakistan-flag.jpg?s=1024x1024&w=is&k=20&c=kBLJ-zpIBok8tPRrVYr01bRV2ENVOLvU3gcTHp2brK4=" alt=""></span></div></div>
+              <div class="col-4 img-fluid my-3 position-relative"><img src="https://cf.bstatic.com/xdata/images/city/600x600/688591.jpg?k=9a550fedccb750cfa3f2e8eaf507287d4007f21def68e6566cc00b200946e876&o=" alt=""  > <div class="position-absolute trending-city"><span class="fw-bold text-white mx-2">Makka</span><span><img src="https://media.istockphoto.com/id/182820726/photo/pakistan-flag.jpg?s=1024x1024&w=is&k=20&c=kBLJ-zpIBok8tPRrVYr01bRV2ENVOLvU3gcTHp2brK4=" alt=""></span></div></div>
+              <div class="col-4 img-fluid my-3 position-relative"><img src="https://cf.bstatic.com/xdata/images/city/600x600/640442.jpg?k=90687d20998ee01829027c5e6396a0b8c6d9198bb76bd5ffc7c49c5b779e18ae&o=" alt=""  > <div class="position-absolute trending-city"><span class="fw-bold text-white mx-2">Karachi</span><span><img src="https://media.istockphoto.com/id/182820726/photo/pakistan-flag.jpg?s=1024x1024&w=is&k=20&c=kBLJ-zpIBok8tPRrVYr01bRV2ENVOLvU3gcTHp2brK4=" alt=""></span></div></div>
+          </div>
+          </div>     
+            <!-- <div class="trends container ">
+
+
+              <div class="row">
+                <div class="col">
+                <img src="https://cf.bstatic.com/xdata/images/city/600x600/688249.jpg?k=42442ea62b97c8d6b57b4b6171b406e6778a9b160b4ce0c69f53726b397c7d3e&o=" alt="">
+                </div>
+                <div class="col">
+                <img src="https://cf.bstatic.com/xdata/images/city/600x600/977220.jpg?k=ee4b7b42c35b8cbf09c8ddb7630092b40cd706fec153c41904ed6e252a883938&o=" alt="">
+                </div>
+              </div>
+              <div class="row">
+                <div class="col">
+                  <img src="https://cf.bstatic.com/xdata/images/city/600x600/724981.jpg?k=d2a74ca55c128d783c4a6836713abe2ef7874ba2cc276b9f671df017ff24da19&o=" alt="">
+
+                </div>
+                <div class="col">
+                  <img src="https://cf.bstatic.com/xdata/images/city/600x600/688591.jpg?k=9a550fedccb750cfa3f2e8eaf507287d4007f21def68e6566cc00b200946e876&o=" alt="">
+
+                </div>
+                <div class="col">
+                  <img src="https://cf.bstatic.com/xdata/images/city/600x600/640442.jpg?k=90687d20998ee01829027c5e6396a0b8c6d9198bb76bd5ffc7c49c5b779e18ae&o=" alt="">
+                </div>
+              </div>
+            </div> -->
+            
+            
+            <div class="quick m-4">
+              <h4>Quick and easy trip planner</h4>
+              <p>Pick a vibe and explore the top destinations in Pakistan</p>
+
+              <div class="btn4 ">
+                <button type="button" class="btn btn-outline-primary rounded-pill btn-sm">
+                  <i class="fa-solid fa-city"></i> City
+                </button>
+                <button type="button" class="btn btn-outline-secondary rounded-pill border border-success border-opacity-10 text-black btn-md"  disabled>
+                  <i class="fa-solid fa-heart"></i> Romance
+                </button>
+                <button type="button" class="btn btn-outline-secondary rounded-pill border border-success border-opacity-10 text-black btn-md"disabled>
+                  <i class="fa-solid fa-bicycle"></i> Outdoor
+                </button>
+              </div>
+
+               <div class="quickimg">
+                <div class="card w-3 border border-0">
+                  <img src="https://cf.bstatic.com/xdata/images/xphoto/300x240/140010768.jpg?k=dd92ee98046baa40f9a4a83573bb8c812dd3c37b8d3160dbed4ecc52738c68fe&o=" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title fw-bold  ">Karachi</h5>
+                    <p class="card-text"><small class="text-body-secondary">54 km away</small></p>
+                  </div>
+                </div>
+                <div class="card border border-0 ">
+                  <img src="https://cf.bstatic.com/xdata/images/xphoto/300x240/140010767.jpg?k=ee1dbb7a4652acf5dd46ea4e58d1259d1aa3d60cac116f9ce4e43ce7d94753b0&o=" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title fw-bold">Lahore</h5>
+                    <p class="card-text"><small class="text-body-secondary">1,034 km away</small></p>
+                  </div>
+                </div>
+               </div>
+             
+            </div>
+
+           
+           
+            <div class="insp m-4" style="padding-top: 80px;;">
+              <h4 class="fw-bold" >Get inspiration for your next trip</h4>
+            </div>
+            <div class="inspiration">
+              
+              <div class="insp1 m-3">
+                 <img src="https://media.istockphoto.com/id/1137283293/photo/view-over-la-downtown-from-griffith-observatory.jpg?s=612x612&w=is&k=20&c=d3-BBuEwg2u54HA9j_-jVcG_vKX7PEKpcapRu0-hQNc=" alt="">
+                 <div class="txtinsp">
+                  <h5 class="fw-bold">5 of the best hotels in Los Angels</h5>
+                  <p>From Hollywood to Bewerly Hills discover 5 of the best hotels in Los Angels
+                   for your stay
+                  </p>
+                 </div>
+                 
+                 
+               
+              </div>
+              <div class="insp2 d-flex justify-content-end  ">
+                <div class="card w-3 border border-0 ">
+                  <img src="https://cf.bstatic.com/xdata/images/xphoto/540x405/292056369.webp?k=358d8cd9ede268c8a9660de4debc48b68fe5777bddce07972ac30ae28ab8b8f2&o=" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title fw-bold  ">The best 6 Orlands hotels for families</h5>
+                    <p class="card-text"><small class="text-body-secondary">Discover the best hotels for your families in Orlands for vacations</small></p>
+                  </div>
+                </div>
+                <div class="card border border-0">
+                  <img src="https://cf.bstatic.com/xdata/images/xphoto/540x405/288300879.webp?k=20a291605b4d1cc6c15b1ee3f9598c22ddb81a8d5ed73135330e426f8d2b9629&o=" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title fw-bold">5 best ski towns around the world</h5>
+                    <p class="card-text"><small class="text-body-secondary">Discover a winter wonderland in these charming ski destinations</small></p>
+                  </div>
+                </div>
+               </div>
+            </div>
+
+
+
+            <div class="dest m-4" style="padding-top: 50px;">
+              <h4 class="fw-bold" >Destinations we love</h4>
+
+
+              <div class="btn4 ">
+                <button type="button" class="btn btn-outline-primary rounded-pill ">
+                 Region
+                </button>
+                <button type="button" class="btn btn-outline-secondary rounded-pill border border-success border-opacity-10 text-black ">
+                 Cities
+                </button>
+                <button type="button" class="btn btn-outline-secondary rounded-pill border border-success border-opacity-10 text-black ">
+                 Places of intrest
+                </button>
+              </div>
+            </div>
+
+
+            <div class="footer text-white">
+             <footer>
+              <h4 class="">Save time , Save Money!</h4>
+              <p class=" text-secondary">Sign up and we'll send the best deals to you</p>
+             </footer>
+             <input class="email" type="email" name="email" id="email" placeholder= "Your email address">
+             <button class="btn btn-primary">Subscribe</button>
+            </div>
+
+            <div class="f2">
+              <button class="btn btn-outline-primary text-white btn-sm">
+               List your property
+              </button>
+                 <hr style="color: white;">
+                  <button class="btn text-white btn-sm border-bottom ">Mobile version</button>
+                  <button class="btn text-white btn-sm border-bottom">Your acoount</button>
+                  <button class="btn text-white btn-sm border-bottom">Make changes online to your booking</button>
+                  <button class="btn text-white btn-sm border-bottom">Customer Service Help</button>
+                  <button class="btn text-white btn-sm border-bottom">Become an affiliate</button>
+                  <button class="btn text-white btn-sm border-bottom">Booking.com for Bussiness</button>
+                 
+            </div>
+          
+            <div class="lists">
+                <ul>
+                  <li>Countries</li>
+                  <li>Regions</li>
+                  <li> Cities</li>
+                  <li>Districts</li>
+                  <li>Airports</li>
+                  <li>Hotels</li>
+                  <li>Places of interest</li>
+                </ul>
+
+                <ul>
+                  <li>Homes</li>
+                  <li>Appartments</li>
+                  <li>Resorts</li>
+                  <li>Villas</li>
+                  <li>Hostels</li>
+                  <li>B&Bs</li>
+                  <li>Guest houses</li>
+                </ul>
+                  
+                   <ul>
+                    <li>unique places to live</li>
+                    <li>All destinations</li>
+                    <li>All Flights destinations</li>
+                    <li>All car rental destinations</li>
+                    <li>All car rental locations</li>
+                    <li>All vacation destinations</li>
+                    <li>Discover</li>
+                    <li>Reviews</li>
+                    <li>Discover monthly stays</li>
+                    <li>Unpacked: Travel articles</li>
+                    <li>Seasonal and holiday deals</li>
+                    <li>Traveller reviews Awards</li>
+                   </ul>
+
+
+                   <ul>
+                    <li>Car rental</li>
+                    <li>Flight finder</li>
+                    <li>Restaurant reservations</li>
+                    <li>Booking.com for Travel Agents</li>
+                   </ul>
+
+                   <ul>
+                    <li>Coronavirus (COVID-19) FAQs</li>
+                    <li>About Booking.com</li>
+                    <li>Customer Service Help</li>
+                    <li>Partner help</li>
+                    <li>Careers</li>
+                    <li>Sustainability</li>
+                    <li>Press Center</li>
+                    <li>Safety Resource Center</li>
+                    <li>Investor relations</li>
+                    <li>Terms & Conditions</li>
+                    <li>Partner dispute</li>
+                    <li>How We Work</li>
+                    <li>Privacy & cookie statement</li>
+                    <li>Corporate contact</li>
+                    <li>Content guidelines and reporting</li>
+    
+
+                   </ul>
+
+            </div>
+                     <p class="log">Extranet Log-in</p>
+
+                     <p class="copy pt-4 fw-3">Copyright © 1996-2024 Booking.com™. All rights reserved.</p>
+                      
+                     <p class="book">Booking.com is part of Booking Holdings Inc., the world leader in online travel and related services.</p>
+
+
+
+                  <div class="copyimage"> 
+                    <img src="https://cf.bstatic.com/static/img/tfl/group_logos/logo_booking/27c8d1832de6a3123b6ee45b59ae2f81b0d9d0d0.png" alt="">
+                    <img src="https://cf.bstatic.com/static/img/tfl/group_logos/logo_priceline/f80e129541f2a952d470df2447373390f3dd4e44.png" alt="">
+                    <img src="https://cf.bstatic.com/static/img/tfl/group_logos/logo_kayak/83ef7122074473a6566094e957ff834badb58ce6.png" alt="">
+                    <img src="https://cf.bstatic.com/static/img/tfl/group_logos/logo_agoda/1c9191b6a3651bf030e41e99a153b64f449845ed.png" alt="">
+                    <img src="https://cf.bstatic.com/static/img/tfl/group_logos/logo_rentalcars/6bc5ec89d870111592a378bbe7a2086f0b01abc4.png" alt="">
+                    <img src="https://cf.bstatic.com/static/img/tfl/group_logos/logo_opentable/a4b50503eda6c15773d6e61c238230eb42fb050d.png" alt="">
+                  </div>
+
+
+
+
+
+
+
+
+
+
+
+            <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+
+          </body>
+</html>
